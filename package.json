@@ -12,6 +12,7 @@
     "@types/bun": "latest",
     "concurrently": "^9.2.1",
     "husky": "^9.1.7",
+    "lint-staged": "^16.1.6",
     "prettier": "^3.6.2"
   },
   "peerDependencies": {
@@ -22,6 +23,8 @@
   ],
   "dependencies": {
     "@tailwindcss/vite": "^4.1.13",
-    "tailwindcss": "^4.1.13"
+    "openai": "^5.22.0",
+    "tailwindcss": "^4.1.13",
+    "zod": "^4.1.9"
   }
 }

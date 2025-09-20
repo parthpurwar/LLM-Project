@@ -1,4 +1,4 @@
-# playground
+# Large Language Model
 
 To install dependencies:
 

@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <p className="font-bold p-4 text-3xl">{message}</p>
-      <Button>Button</Button>
+      <Button>Click here</Button>
     </>
   );
 }

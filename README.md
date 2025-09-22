@@ -55,5 +55,19 @@ They learn language structure, facts, and reasoning skills, which allows them to
 
 1. **Install Dependecies**
    bun install
+   tailwind install
+   install shadcn
+   install button , card, input components
+   install husky
+1. **Run the development serve**
+   bun run index.ts
+
+1. **Test the chatbot API**
+   Visit "http://localhost:3000/api/hello" to check the server.
+   Send a POST request to /api/chat with:
+   {
+   "prompt": "Hello, how are you?",
+   "convesrationId": "some-uuid"
+   }
 
 This project was created using bun init in bun v1.2.22. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
